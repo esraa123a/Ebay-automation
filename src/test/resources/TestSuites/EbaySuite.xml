@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Ebay Suite" verbose="1" parallel="false">
+  <test name="Ebay Tests">
+    <classes>
+      <class name="testcases.EbaySearchTest"/>
+    </classes>
+  </test>
+</suite>

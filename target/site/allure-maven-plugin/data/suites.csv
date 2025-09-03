@@ -1,0 +1,2 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Sep 03 13:33:05 EEST 2025","Wed Sep 03 13:33:22 EEST 2025","17046","Ebay Suite","Ebay Tests","testcases.EbaySearchTest","testcases.EbaySearchTest","search_filter_count","Search Mazda MX-5 and filter Transmission Manual",""

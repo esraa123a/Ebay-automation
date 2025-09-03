@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Ebay Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Ebay Tests(failed)">
+    <classes>
+      <class name="testcases.EbaySearchTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="search_filter_count" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.EbaySearchTest -->
+    </classes>
+  </test> <!-- Ebay Tests(failed) -->
+</suite> <!-- Failed suite [Ebay Suite] -->
