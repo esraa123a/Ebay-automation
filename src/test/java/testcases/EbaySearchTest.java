@@ -35,10 +35,12 @@ public class EbaySearchTest extends TestBase {
 
 		home.search(searchTerm);
 		int before = results.getResultsCount();
+		System.out.println("Initial results count:" + before);
 		Allure.step("Initial results count: " + before);
 
 		results.applyManualFilter();
 		int after = results.getResultsCount();
+		System.out.println("Initial results count:" + after);		
 		Allure.step("Filtered results count: " + after);
 
 		Assert.assertTrue(after <= before, "Filtered results should not increase");
